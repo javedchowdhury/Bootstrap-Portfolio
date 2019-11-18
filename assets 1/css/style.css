@@ -1,0 +1,157 @@
+body{
+    background-image: url('../images/greek-vase.png');
+}
+.mainsection{
+    height: 400px;
+    width: 500px;
+}
+footer{
+    background-color: gray;
+    /* position: absolute;
+    bottom: 10px;
+    width: 1000px;
+    height: 45px;
+    text-align: center; */
+}
+ /* #aboutMe{
+    background:  white;
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    margin: 20px;
+    margin-top: 20px;
+}  */
+
+header {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+.headercontainer{
+    height: 100px;
+    display: block;
+    max-width: 1200px;
+    /* margin: auto; */
+    /* background: whitesmoke; */
+    /* padding: 10px; */
+    height: 100px;
+}
+.global-header {
+    float: left;
+    padding: 1em 0 0;
+    width: 100%;
+    height: 4.813em;
+    border-bottom: solid 2px #eff0f6;
+    background:white;
+}
+
+.global-header {
+    padding: 1em 0 0;
+    height: 5.125em;
+}
+
+.name {
+    float: left;
+    position: relative;
+    left: 100;
+    margin-left: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4AAAA5;
+    color:white;
+    height:100%;
+    width: 200px;
+    text-align: justify;
+    float: left;
+    /* position:absolut÷e; */
+    bottom:2;
+    font-size: 18px;
+    margin-left: 13%;
+    align-content: center;
+    align-items: center;
+}
+
+.manu {
+    margin: 1.125em 0 0;
+    display: block;
+    float: right;
+}
+
+.manu>li{
+    float: left;
+}
+
+.li {
+    display: block;
+    font-size: .875rem;
+    font-family: zandes-bold,Helvetica,Arial,sans-serif;
+    color: #2c2d37;
+}
+
+.li {
+    margin-left: 3em;
+    /* margin-right: 25%; */
+} 
+/* new code from here */
+body{
+    background-color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: whitesmoke;
+    padding: 10px;
+    height: 800px;
+}
+header{
+    background-color: white;
+}
+
+img{
+    float: left;
+}
+
+#portfolio-img{
+    height: 200px;
+    width: 200px;
+}
+#aboutmetext{
+    text-align: center;
+
+}
+
+footer{
+    /* width: 100%; */
+    text-align: center;
+    position: fixed;
+     bottom: 0;
+    /*width: 80%; */
+    display: block;
+    width: 100%;
+    height: 20px;
+}
+
+img{
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 02px;
+}
+
+@media screen and (max-width:980px){
+
+}
+
+@media screen and (max-width:768px){
+
+}
+
+@media screen and (max-width:640px){
+    .headercontainer{
+        width: 100%;
+        max-width: 1200px;
+    }
+
+}
